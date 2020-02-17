@@ -1,0 +1,2671 @@
+{
+   "Delay" : 0.0079742,
+   "Outcome" : "Success",
+   "CurrencyList" : [
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "United Arab Emirates",
+               "Code" : "AE"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "UAE dirhams",
+         "Name" : "UAE dirham",
+         "Symbol" : "AED"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Afghanistan",
+               "Code" : "AF"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Afghan afghanis",
+         "Name" : "Afghan afghani",
+         "Symbol" : "AFN"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Albania",
+               "Code" : "AL"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Albanian leke",
+         "Name" : "Albanian lek",
+         "Symbol" : "ALL"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Armenia",
+               "Code" : "AM"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Armenian dram",
+         "Name" : "Armenian dram",
+         "Symbol" : "AMD"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Curacao",
+               "Code" : "CW"
+            },
+            {
+               "Name" : "Sint Maarten",
+               "Code" : "SX"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Netherlands Antillean guilders",
+         "Name" : "Netherlands Antillean guilder",
+         "Symbol" : "ANG"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Angola",
+               "Code" : "AO"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Angolan kwanza",
+         "Name" : "Angolan kwanza",
+         "Symbol" : "AOA"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Argentina",
+               "Code" : "AR"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Argentine pesos",
+         "Name" : "Argentine peso",
+         "Symbol" : "ARS"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Australia",
+               "Code" : "AU"
+            },
+            {
+               "Name" : "Christmas Island",
+               "Code" : "AU"
+            },
+            {
+               "Name" : "Cocos (Keeling) Islands",
+               "Code" : "CC"
+            },
+            {
+               "Name" : "Heard Island and McDonald Islands",
+               "Code" : "HM"
+            },
+            {
+               "Name" : "Kiribati",
+               "Code" : "KI"
+            },
+            {
+               "Name" : "Nauru",
+               "Code" : "NA"
+            },
+            {
+               "Name" : "Norfolk Island",
+               "Code" : "AU"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Australian dollars",
+         "Name" : "Australian dollar",
+         "Symbol" : "AUD"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Aruba",
+               "Code" : "AW"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Aruban florin",
+         "Name" : "Aruban florin",
+         "Symbol" : "AWG"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Azerbaijan",
+               "Code" : "AZ"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Azerbaijanian manat",
+         "Name" : "Azerbaijanian manat",
+         "Symbol" : "AZN"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Bosnia and Herzegovina",
+               "Code" : "BA"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Bosnia and Herzegovina convertible marks",
+         "Name" : "Bosnia and Herzegovina convertible mark",
+         "Symbol" : "BAM"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Barbados",
+               "Code" : "BB"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Barbadian dollars",
+         "Name" : "Barbadian dollar",
+         "Symbol" : "BBD"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Bangladesh",
+               "Code" : "BD"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Bangladeshi taka",
+         "Name" : "Bangladeshi tak",
+         "Symbol" : "BDT"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Bulgaria",
+               "Code" : "BG"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Bulgarian leva",
+         "Name" : "Bulgarian lev",
+         "Symbol" : "BGN"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Bahrain",
+               "Code" : "BH"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Bahraini dinara",
+         "Name" : "Bahraini dinar",
+         "Symbol" : "BHD"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Burundi",
+               "Code" : "BI"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Burundi francs",
+         "Name" : "Burundi franc",
+         "Symbol" : "BIF"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Bermuda",
+               "Code" : "BM"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Bermudian dollars",
+         "Name" : "Bermudian dollar",
+         "Symbol" : "BMD"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Brunei Darussalam",
+               "Code" : "BN"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Brunei dollars",
+         "Name" : "Brunei dollar",
+         "Symbol" : "BND"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Bolivia",
+               "Code" : "BO"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Bolivian bolivianos",
+         "Name" : "Bolivian boliviano",
+         "Symbol" : "BOB"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Brazil",
+               "Code" : "BR"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Brasilien reais",
+         "Name" : "Brasilien real",
+         "Symbol" : "BRL"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Bahamas",
+               "Code" : "BS"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Bahamian dollars",
+         "Name" : "Bahamian dollar",
+         "Symbol" : "BSD"
+      },
+      {
+         "Digital" : true,
+         "Active" : true,
+         "Countries" : [
+            null
+         ],
+         "Message" : null,
+         "Plural" : "Bitcoins",
+         "Name" : "Bitcoin",
+         "Symbol" : "BTC"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Bhutan",
+               "Code" : "BT"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Bhutanese ngultrum",
+         "Name" : "Bhutanese ngultrum",
+         "Symbol" : "BTN"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Botswana",
+               "Code" : "BW"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Botswanan pulas",
+         "Name" : "Botswanan pula",
+         "Symbol" : "BWP"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Belarus",
+               "Code" : "BY"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "New Belarusian ruble",
+         "Name" : "New Belarusian ruble",
+         "Symbol" : "BYN"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Belize",
+               "Code" : "BZ"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Belize dollars",
+         "Name" : "Belize dollar",
+         "Symbol" : "BZD"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Canada",
+               "Code" : "CA"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Canadian dollars",
+         "Name" : "Canadian dollar",
+         "Symbol" : "CAD"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Congo, Democratic Republic of the",
+               "Code" : "CG"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Congolese francs",
+         "Name" : "Congolese franc",
+         "Symbol" : "CDF"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Liechtenstein",
+               "Code" : "LI"
+            },
+            {
+               "Name" : "Switzerland",
+               "Code" : "CH"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Switzerland Francs",
+         "Name" : "Switzerland Franc",
+         "Symbol" : "CHF"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Chile",
+               "Code" : "CL"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Unidades de fomento",
+         "Name" : "Unidad de fomento",
+         "Symbol" : "CLF"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Chile",
+               "Code" : "CL"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Chilean pesos",
+         "Name" : "Chilean peso",
+         "Symbol" : "CLP"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "China",
+               "Code" : "CN"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Chinese offshore renminbi yuan",
+         "Name" : "Chinese offshore renminbi yuan",
+         "Symbol" : "CNH"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "China",
+               "Code" : "CN"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Chinese renminbi yuan",
+         "Name" : "Chinese renminbi yuan",
+         "Symbol" : "CNY"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Colombia",
+               "Code" : "CO"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Colombian pesos",
+         "Name" : "Colombian peso",
+         "Symbol" : "COP"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Costa Rica",
+               "Code" : "CR"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Costa Rican colones",
+         "Name" : "Costa Rican colon",
+         "Symbol" : "CRC"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Cuba",
+               "Code" : "CU"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Cuban pesos",
+         "Name" : "Cuban peso",
+         "Symbol" : "CUP"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Cape Verde",
+               "Code" : "CV"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Cape Verdean escudos",
+         "Name" : "Cape Verdean Escudo",
+         "Symbol" : "CVE"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Czech Republic",
+               "Code" : "CZ"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Czech korun",
+         "Name" : "Czech koruna",
+         "Symbol" : "CZK"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Djibouti",
+               "Code" : "DJ"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Djiboutian francs",
+         "Name" : "Djiboutian franc",
+         "Symbol" : "DJF"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Denmark",
+               "Code" : "DK"
+            },
+            {
+               "Name" : "Faroe Islands",
+               "Code" : "FO"
+            },
+            {
+               "Name" : "Greenland",
+               "Code" : "GL"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Danish kroner",
+         "Name" : "Danish krone",
+         "Symbol" : "DKK"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Dominican Republic",
+               "Code" : "DO"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Dominican pesos",
+         "Name" : "Dominican peso",
+         "Symbol" : "DOP"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Algeria",
+               "Code" : "DZ"
+            },
+            {
+               "Name" : "Western Sahara",
+               "Code" : "EH"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Algerian dinara",
+         "Name" : "Algerian dinar",
+         "Symbol" : "DZD"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Egypt",
+               "Code" : "EG"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Egyptian pounds",
+         "Name" : "Egyptian pound",
+         "Symbol" : "EGP"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Ethiopia",
+               "Code" : "ET"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Ethiopian birr",
+         "Name" : "Ethiopian birr",
+         "Symbol" : "ETB"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Andorra",
+               "Code" : "AD"
+            },
+            {
+               "Name" : "Austria",
+               "Code" : "AT"
+            },
+            {
+               "Name" : "Azores",
+               "Code" : "PT"
+            },
+            {
+               "Name" : "Baleares (Balearic Islands)",
+               "Code" : "ES"
+            },
+            {
+               "Name" : "Belgium",
+               "Code" : "BE"
+            },
+            {
+               "Name" : "Canary Islands",
+               "Code" : "ES"
+            },
+            {
+               "Name" : "Cyprus",
+               "Code" : "CY"
+            },
+            {
+               "Name" : "Dutch (Netherlands)",
+               "Code" : "NL"
+            },
+            {
+               "Name" : "Eire (Ireland)",
+               "Code" : "IE"
+            },
+            {
+               "Name" : "Estonia",
+               "Code" : "EE"
+            },
+            {
+               "Name" : "Finland",
+               "Code" : "FI"
+            },
+            {
+               "Name" : "France",
+               "Code" : "FR"
+            },
+            {
+               "Name" : "French Guiana",
+               "Code" : "GF"
+            },
+            {
+               "Name" : "French Southern Territories",
+               "Code" : "TF"
+            },
+            {
+               "Name" : "Germany",
+               "Code" : "DE"
+            },
+            {
+               "Name" : "Greece",
+               "Code" : "GR"
+            },
+            {
+               "Name" : "Guadeloupe",
+               "Code" : "GP"
+            },
+            {
+               "Name" : "Holland (Netherlands)",
+               "Code" : "NL"
+            },
+            {
+               "Name" : "Holy See (Vatican City)",
+               "Code" : "VA"
+            },
+            {
+               "Name" : "Ireland (Eire)",
+               "Code" : "EI"
+            },
+            {
+               "Name" : "Italy",
+               "Code" : "IT"
+            },
+            {
+               "Name" : "Luxembourg",
+               "Code" : "LU"
+            },
+            {
+               "Name" : "Madeira Islands",
+               "Code" : "PT"
+            },
+            {
+               "Name" : "Malta",
+               "Code" : "MT"
+            },
+            {
+               "Name" : "Martinique",
+               "Code" : "MQ"
+            },
+            {
+               "Name" : "Mayotte",
+               "Code" : "YT"
+            },
+            {
+               "Name" : "Miquelon and Saint Pierre",
+               "Code" : "PM"
+            },
+            {
+               "Name" : "Monaco",
+               "Code" : "MC"
+            },
+            {
+               "Name" : "Netherlands",
+               "Code" : "NL"
+            },
+            {
+               "Name" : "Portugal",
+               "Code" : "PT"
+            },
+            {
+               "Name" : "Reunion",
+               "Code" : "FR"
+            },
+            {
+               "Name" : "Saint Pierre and Miquelon",
+               "Code" : "FR"
+            },
+            {
+               "Name" : "Saint-Martin",
+               "Code" : "NL"
+            },
+            {
+               "Name" : "San Marino",
+               "Code" : "SM"
+            },
+            {
+               "Name" : "Slovakia",
+               "Code" : "SK"
+            },
+            {
+               "Name" : "Slovenia",
+               "Code" : "SI"
+            },
+            {
+               "Name" : "Spain",
+               "Code" : "SP"
+            },
+            {
+               "Name" : "Vatican City (The Holy See)",
+               "Code" : "VA"
+            },
+            {
+               "Name" : "European Union",
+               "Code" : "EU"
+            },
+            {
+               "Name" : "Europe",
+               "Code" : "EU"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "European Union euros",
+         "Name" : "European Union euro",
+         "Symbol" : "EUR"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Fiji",
+               "Code" : "FJ"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Fijian dollars",
+         "Name" : "Fijian dollar",
+         "Symbol" : "FJD"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Falkland Islands (Malvinas)",
+               "Code" : "FK"
+            },
+            {
+               "Name" : "Malvinas (Falkland Islands)",
+               "Code" : "FK"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Falkland Islands pounds",
+         "Name" : "Falkland Islands pound",
+         "Symbol" : "FKP"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Britain (United Kingdom)",
+               "Code" : "GB"
+            },
+            {
+               "Name" : "England (United Kingdom)",
+               "Code" : "GB"
+            },
+            {
+               "Name" : "Great Britain (United Kingdom)",
+               "Code" : "GB"
+            },
+            {
+               "Name" : "South Georgia and the South Sandwich Islands",
+               "Code" : "GS"
+            },
+            {
+               "Name" : "United Kingdom",
+               "Code" : "GB"
+            },
+            {
+               "Name" : "Great Britain",
+               "Code" : "GB"
+            },
+            {
+               "Name" : "Britain",
+               "Code" : "GB"
+            },
+            {
+               "Name" : "England",
+               "Code" : "GB"
+            },
+            {
+               "Name" : "UK",
+               "Code" : "GB"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "British pounds sterling",
+         "Name" : "British pound sterling",
+         "Symbol" : "GBP"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Georgia",
+               "Code" : "GE"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Georgian lari",
+         "Name" : "Georgian lari",
+         "Symbol" : "GEL"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Ghana",
+               "Code" : "GH"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Ghana cedis",
+         "Name" : "Ghana cedi",
+         "Symbol" : "GHS"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Gibraltar",
+               "Code" : "GI"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Gibraltar pounds",
+         "Name" : "Gibraltar pound",
+         "Symbol" : "GIP"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Gambia",
+               "Code" : "GM"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Gambian dalasi",
+         "Name" : "Gambian dalasi",
+         "Symbol" : "GMD"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Guinea",
+               "Code" : "GN"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Guinea Francs",
+         "Name" : "Guinea Franc",
+         "Symbol" : "GNF"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Guatemala",
+               "Code" : "GT"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Guatemalan quetzales",
+         "Name" : "Guatemalan quetzal",
+         "Symbol" : "GTQ"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Guyana",
+               "Code" : "GY"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Guyanese dollars",
+         "Name" : "Guyanese dollar",
+         "Symbol" : "GYD"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Hong Kong",
+               "Code" : "HK"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Hong Kong dollars",
+         "Name" : "Hong Kong dollar",
+         "Symbol" : "HKD"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Honduras",
+               "Code" : "HN"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Honduran lempiras",
+         "Name" : "Honduran lempira",
+         "Symbol" : "HNL"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Croatia",
+               "Code" : "HR"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Croatian kuna",
+         "Name" : "Croatian kuna",
+         "Symbol" : "HRK"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Haiti",
+               "Code" : "HT"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Haitian gourdes",
+         "Name" : "Haitian gourde",
+         "Symbol" : "HTG"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Hungary",
+               "Code" : "HU"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Hungarian forint",
+         "Name" : "Hungarian forin",
+         "Symbol" : "HUF"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "East Timor",
+               "Code" : "TP"
+            },
+            {
+               "Name" : "Indonesia",
+               "Code" : "ID"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Indonesia Rupiahs",
+         "Name" : "Indonesia Rupiah",
+         "Symbol" : "IDR"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Israel",
+               "Code" : "IL"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Israeli shekalim hadash",
+         "Name" : "Israeli shekel hadash",
+         "Symbol" : "ILS"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Bhutan",
+               "Code" : "BT"
+            },
+            {
+               "Name" : "India",
+               "Code" : "IN"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "India Rupeess",
+         "Name" : "India Rupees",
+         "Symbol" : "INR"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Iraq",
+               "Code" : "IQ"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Iraqi dinara",
+         "Name" : "Iraqi dinar",
+         "Symbol" : "IQD"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Iran, Islamic Republic of",
+               "Code" : "IR"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Iranian rials",
+         "Name" : "Iranian rial",
+         "Symbol" : "IRR"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Iceland",
+               "Code" : "IS"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Iceland Kronur",
+         "Name" : "Iceland Krona",
+         "Symbol" : "ISK"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Jamaica",
+               "Code" : "JM"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Jamaican dollars",
+         "Name" : "Jamaican dollar",
+         "Symbol" : "JMD"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Jordan",
+               "Code" : "JO"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Jordanian dinara",
+         "Name" : "Jordanian dinar",
+         "Symbol" : "JOD"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Japan",
+               "Code" : "JP"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Japanese yen",
+         "Name" : "Japanese yen",
+         "Symbol" : "JPY"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Kenya",
+               "Code" : "KE"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Kenyan shillings",
+         "Name" : "Kenyan shilling",
+         "Symbol" : "KES"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Kyrgyzstan",
+               "Code" : "KG"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Kyrgyzstani soms",
+         "Name" : "Kyrgyzstani som",
+         "Symbol" : "KGS"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Cambodia",
+               "Code" : "KH"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Cambodian riels",
+         "Name" : "Cambodian riel",
+         "Symbol" : "KHR"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Comoros",
+               "Code" : "KM"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Comorian francs",
+         "Name" : "Comorian franc",
+         "Symbol" : "KMF"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Korea, Republic of",
+               "Code" : "KR"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Korean won",
+         "Name" : "Korean won",
+         "Symbol" : "KRW"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Kuwait",
+               "Code" : "KW"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Kuwaiti dinara",
+         "Name" : "Kuwaiti dinar",
+         "Symbol" : "KWD"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Cayman Islands",
+               "Code" : "KY"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Cayman Islands dollars",
+         "Name" : "Cayman Islands dollar",
+         "Symbol" : "KYD"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Kazakhstan",
+               "Code" : "KZ"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Kazakhstani tenge",
+         "Name" : "Kazakhstani tenge",
+         "Symbol" : "KZT"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Laos, Lao People's Democratic Republic",
+               "Code" : "LA"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Lao kip",
+         "Name" : "Lao kip",
+         "Symbol" : "LAK"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Lebanon, Lebanese Republic",
+               "Code" : "LB"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Lebanese pounds",
+         "Name" : "Lebanese pound",
+         "Symbol" : "LBP"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Sri Lanka",
+               "Code" : "LK"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Sri Lankan rupees",
+         "Name" : "Sri Lankan rupee",
+         "Symbol" : "LKR"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Liberia",
+               "Code" : "LR"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Liberian dollars",
+         "Name" : "Liberian dollar",
+         "Symbol" : "LRD"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Lesotho",
+               "Code" : "LS"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Lesotho maloti",
+         "Name" : "Lesotho loti",
+         "Symbol" : "LSL"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Libya",
+               "Code" : "LY"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Libyan dinara",
+         "Name" : "Libyan dinar",
+         "Symbol" : "LYD"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Morocco",
+               "Code" : "MA"
+            },
+            {
+               "Name" : "Western Sahara",
+               "Code" : "EH"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Moroccan dirhams",
+         "Name" : "Moroccan dirham",
+         "Symbol" : "MAD"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Moldova",
+               "Code" : "MD"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Moldovan lei",
+         "Name" : "Moldovan leu",
+         "Symbol" : "MDL"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Madagascar",
+               "Code" : "MG"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Malagasy ariary",
+         "Name" : "Malagasy ariary",
+         "Symbol" : "MGA"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Macedonia, Republic of Macedonia",
+               "Code" : "MK"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Macedonian denara",
+         "Name" : "Macedonian denar",
+         "Symbol" : "MKD"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Burma, Republic of the Union of Myanmar",
+               "Code" : "MM"
+            },
+            {
+               "Name" : "Myanmar (Burma)",
+               "Code" : "MM"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Burmese kyats",
+         "Name" : "Burmese kyat",
+         "Symbol" : "MMK"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Mongolia",
+               "Code" : "MN"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Mongolian tugrik",
+         "Name" : "Mongolian tugrik",
+         "Symbol" : "MNT"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Macao",
+               "Code" : "MO"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Patacas",
+         "Name" : "Pataca",
+         "Symbol" : "MOP"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Mauritania",
+               "Code" : "MR"
+            },
+            {
+               "Name" : "Western Sahara",
+               "Code" : "EH"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Mauritania ouguiyas",
+         "Name" : "Mauritania ouguiya",
+         "Symbol" : "MRU"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Mauritius",
+               "Code" : "MU"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Mauritian rupees",
+         "Name" : "Mauritian rupee",
+         "Symbol" : "MUR"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Maldives (Maldive Islands)",
+               "Code" : "MV"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Maldivian rufiyaa",
+         "Name" : "Maldivian rufiyaa",
+         "Symbol" : "MVR"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Malawi",
+               "Code" : "MW"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Malawian kwachas",
+         "Name" : "Malawian kwacha",
+         "Symbol" : "MWK"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Mexico",
+               "Code" : "MX"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Mexican pesos",
+         "Name" : "Mexican peso",
+         "Symbol" : "MXN"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Malaysia",
+               "Code" : "MY"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Malaysian ringgits",
+         "Name" : "Malaysian ringgit",
+         "Symbol" : "MYR"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Mozambique",
+               "Code" : "MZ"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Mozambican meticais",
+         "Name" : "Mozambican metical",
+         "Symbol" : "MZN"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Namibia",
+               "Code" : "NA"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Namibian dollars",
+         "Name" : "Namibian dollar",
+         "Symbol" : "NAD"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Nigeria",
+               "Code" : "NG"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Nigerian nairas",
+         "Name" : "Nigerian naira",
+         "Symbol" : "NGN"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Nicaragua",
+               "Code" : "NI"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Gold Cordobas",
+         "Name" : "Gold Cordoba",
+         "Symbol" : "NIO"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Bouvet Island",
+               "Code" : "BV"
+            },
+            {
+               "Name" : "Norway",
+               "Code" : "NO"
+            },
+            {
+               "Name" : "Svalbard and Jan Mayen",
+               "Code" : "SJ"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Norwegian kroner",
+         "Name" : "Norwegian krone",
+         "Symbol" : "NOK"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Nepal",
+               "Code" : "NP"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Nepalese rupees",
+         "Name" : "Nepalese rupee",
+         "Symbol" : "NPR"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Cook Islands",
+               "Code" : "CK"
+            },
+            {
+               "Name" : "New Zealand",
+               "Code" : "NZ"
+            },
+            {
+               "Name" : "Niue",
+               "Code" : "NU"
+            },
+            {
+               "Name" : "Pitcairn Islands",
+               "Code" : "PT"
+            },
+            {
+               "Name" : "Tokelau",
+               "Code" : "TK"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "New Zealand dollars",
+         "Name" : "New Zealand dollar",
+         "Symbol" : "NZD"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Oman",
+               "Code" : "OM"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Omani rial",
+         "Name" : "Omani rial",
+         "Symbol" : "OMR"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Panama",
+               "Code" : "PA"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Panamanian balboa",
+         "Name" : "Panamanian balboa",
+         "Symbol" : "PAB"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Peru",
+               "Code" : "PE"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Peruvian nuevos soles",
+         "Name" : "Peruvian nuevo sol",
+         "Symbol" : "PEN"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Papua New Guinea",
+               "Code" : "PG"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Papua New Guinean kina",
+         "Name" : "Papua New Guinean kina",
+         "Symbol" : "PGK"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Philippines",
+               "Code" : "PH"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Filipino pisos",
+         "Name" : "Filipino piso",
+         "Symbol" : "PHP"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Pakistan",
+               "Code" : "PK"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Pakistani rupees",
+         "Name" : "Pakistani rupee",
+         "Symbol" : "PKR"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Poland",
+               "Code" : "PL"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Polish zlotych",
+         "Name" : "Polish zloty",
+         "Symbol" : "PLN"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Paraguay",
+               "Code" : "PY"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Paraguayan guaranies",
+         "Name" : "Paraguayan guarani",
+         "Symbol" : "PYG"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Qatar",
+               "Code" : "QA"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Qatari riyal",
+         "Name" : "Qatari riyal",
+         "Symbol" : "QAR"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Romania",
+               "Code" : "RO"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Romanian lei",
+         "Name" : "Romanian leu",
+         "Symbol" : "RON"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Serbia",
+               "Code" : "RS"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Serbian dinara",
+         "Name" : "Serbian dinar",
+         "Symbol" : "RSD"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Russian Federation",
+               "Code" : "RU"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Russian ruble",
+         "Name" : "Russian ruble",
+         "Symbol" : "RUB"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Rwanda",
+               "Code" : "RW"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Rwandan francs",
+         "Name" : "Rwandan franc",
+         "Symbol" : "RWF"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Saudi Arabia",
+               "Code" : "SA"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Saudi riyals",
+         "Name" : "Saudi riyal",
+         "Symbol" : "SAR"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Solomon Islands",
+               "Code" : "SB"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Solomon Islands dollars",
+         "Name" : "Solomon Islands dollar",
+         "Symbol" : "SBD"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Seychelles",
+               "Code" : "SC"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Seychellois rupees",
+         "Name" : "Seychellois rupee",
+         "Symbol" : "SCR"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Sudan",
+               "Code" : "SD"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Sudanese pounds",
+         "Name" : "Sudanese pound",
+         "Symbol" : "SDG"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Sweden",
+               "Code" : "SE"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Swedish kronor",
+         "Name" : "Swedish krona",
+         "Symbol" : "SEK"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Singapore",
+               "Code" : "SG"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Singapore dollars",
+         "Name" : "Singapore dollar",
+         "Symbol" : "SGD"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Saint Helena",
+               "Code" : "SH"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Saint Helena pounds",
+         "Name" : "Saint Helena pound",
+         "Symbol" : "SHP"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Sierra Leone",
+               "Code" : "SL"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Sierra Leonean leones",
+         "Name" : "Sierra Leonean leone",
+         "Symbol" : "SLL"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Somalia",
+               "Code" : "SO"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Somali shillings",
+         "Name" : "Somali shilling",
+         "Symbol" : "SOS"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Suriname",
+               "Code" : "SR"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Surinamese dollars",
+         "Name" : "Surinamese dollar",
+         "Symbol" : "SRD"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Principe and Sao Tome",
+               "Code" : "ST"
+            },
+            {
+               "Name" : "Sao Tome and Principe",
+               "Code" : "ST"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Sao Tome and Principe dobras",
+         "Name" : "Sao Tome and Principe dobra",
+         "Symbol" : "STD"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Principe and Sao Tome",
+               "Code" : "ST"
+            },
+            {
+               "Name" : "Sao Tome and Principe",
+               "Code" : "ST"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Sao Tome and Principe dobras",
+         "Name" : "Sao Tome and Principe dobra",
+         "Symbol" : "STN"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "El Salvador",
+               "Code" : "SV"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Salvadoran colones",
+         "Name" : "Salvadoran colon",
+         "Symbol" : "SVC"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Syria",
+               "Code" : "SY"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Syrian pounds",
+         "Name" : "Syrian pound",
+         "Symbol" : "SYP"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Swaziland",
+               "Code" : "SZ"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Swazi emalangeni",
+         "Name" : "Swazi lilangeni",
+         "Symbol" : "SZL"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Thailand",
+               "Code" : "TH"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Thai baht",
+         "Name" : "Thai baht",
+         "Symbol" : "THB"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Tajikistan",
+               "Code" : "TJ"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Tajikistani somoni",
+         "Name" : "Tajikistani somoni",
+         "Symbol" : "TJS"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Turkmenistan",
+               "Code" : "TM"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Turkmenistan manat",
+         "Name" : "Turkmenistan manat",
+         "Symbol" : "TMT"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Tunisia",
+               "Code" : "TN"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Tunisian dinara",
+         "Name" : "Tunisian dinar",
+         "Symbol" : "TND"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Tonga",
+               "Code" : "TO"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Tonga pa'anga",
+         "Name" : "Tongan pa'anga",
+         "Symbol" : "TOP"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Turkey",
+               "Code" : "TR"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Turkish liras",
+         "Name" : "Turkish lira",
+         "Symbol" : "TRY"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Tobago and Trinidad",
+               "Code" : "TT"
+            },
+            {
+               "Name" : "Trinidad and Tobago",
+               "Code" : "TT"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Trinidad and Tobago dollars",
+         "Name" : "Trinidad and Tobago dollar",
+         "Symbol" : "TTD"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Taiwan, Province of China",
+               "Code" : "TW"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "New Taiwan dollars",
+         "Name" : "New Taiwan dollar",
+         "Symbol" : "TWD"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Tanzania, United Republic of",
+               "Code" : "TZ"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Tanzanian shillings",
+         "Name" : "Tanzanian shilling",
+         "Symbol" : "TZS"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Ukraine",
+               "Code" : "UA"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Ukrainian hryvni/hryven",
+         "Name" : "Ukrainian hryvnia",
+         "Symbol" : "UAH"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Uganda",
+               "Code" : "UG"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Ugandan shillings",
+         "Name" : "Ugandan shilling",
+         "Symbol" : "UGX"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "United States of America",
+               "Code" : "US"
+            },
+            {
+               "Name" : "American Samoa",
+               "Code" : "AS"
+            },
+            {
+               "Name" : "British Indian Ocean Territory",
+               "Code" : "IO"
+            },
+            {
+               "Name" : "Turks and Caicos Islands",
+               "Code" : "TC"
+            },
+            {
+               "Name" : "Ecuador",
+               "Code" : "EC"
+            },
+            {
+               "Name" : "Guam",
+               "Code" : "GU"
+            },
+            {
+               "Name" : "Haiti",
+               "Code" : "HT"
+            },
+            {
+               "Name" : "Northern Mariana Islands",
+               "Code" : "MP"
+            },
+            {
+               "Name" : "Marshall Islands",
+               "Code" : "MH"
+            },
+            {
+               "Name" : "Micronesia (Federated States of)",
+               "Code" : "FM"
+            },
+            {
+               "Name" : "Midway Islands",
+               "Code" : "MI"
+            },
+            {
+               "Name" : "Palau",
+               "Code" : "PW"
+            },
+            {
+               "Name" : "Panama",
+               "Code" : "PA"
+            },
+            {
+               "Name" : "Puerto Rico",
+               "Code" : "PR"
+            },
+            {
+               "Name" : "United States Minor Outlying Islands",
+               "Code" : "UM"
+            },
+            {
+               "Name" : "Virgin Islands, U.S.",
+               "Code" : "VI"
+            },
+            {
+               "Name" : "Virgin Islands, British",
+               "Code" : "VG"
+            },
+            {
+               "Name" : "Wake Island",
+               "Code" : "WK"
+            },
+            {
+               "Name" : "Bonaire",
+               "Code" : "NL"
+            },
+            {
+               "Name" : "Netherlands Antilles",
+               "Code" : "AN"
+            },
+            {
+               "Name" : "Saba",
+               "Code" : "NL"
+            },
+            {
+               "Name" : "Sint Eustatius",
+               "Code" : "NL"
+            },
+            {
+               "Name" : "United States",
+               "Code" : "US"
+            },
+            {
+               "Name" : "USA",
+               "Code" : "US"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "United States dollars",
+         "Name" : "United States dollar",
+         "Symbol" : "USD"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Uruguay",
+               "Code" : "UY"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "pesos Uruguayos",
+         "Name" : "peso Uruguayo",
+         "Symbol" : "UYU"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Uzbekistan",
+               "Code" : "UZ"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Uzbekistani som",
+         "Name" : "Uzbekistani som",
+         "Symbol" : "UZS"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Venezuela, Bolivarian Republic of",
+               "Code" : "VE"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Venezuelan Bolivar Soberanos",
+         "Name" : "Venezuelan Bolivar Soberano",
+         "Symbol" : "VES"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Viet Nam",
+               "Code" : "VN"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Vietnamese dong",
+         "Name" : "Vietnamese dong",
+         "Symbol" : "VND"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Vanuatu",
+               "Code" : "VU"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Vanuatu vatu",
+         "Name" : "Vanuatu vatu",
+         "Symbol" : "VUV"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            null,
+            {
+               "Name" : "Cameroon",
+               "Code" : "CM"
+            },
+            {
+               "Name" : "Central African Republic",
+               "Code" : "CF"
+            },
+            {
+               "Name" : "Chad",
+               "Code" : "TD"
+            },
+            {
+               "Name" : "Congo/Brazzaville",
+               "Code" : "CD"
+            },
+            {
+               "Name" : "Equatorial Guinea",
+               "Code" : "GQ"
+            },
+            {
+               "Name" : "Gabon",
+               "Code" : "GA"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Central African CFA francs",
+         "Name" : "Central African CFA franc",
+         "Symbol" : "XAF"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            null,
+            {
+               "Name" : "Anguilla",
+               "Code" : "AV"
+            },
+            {
+               "Name" : "Antigua and Barbuda",
+               "Code" : "AG"
+            },
+            {
+               "Name" : "Barbuda and Antigua",
+               "Code" : "AG"
+            },
+            {
+               "Name" : "Dominica",
+               "Code" : "DM"
+            },
+            {
+               "Name" : "Grenada",
+               "Code" : "GD"
+            },
+            {
+               "Name" : "Montserrat",
+               "Code" : "MS"
+            },
+            null,
+            {
+               "Name" : "Saint Kitts and Nevis",
+               "Code" : "KN"
+            },
+            {
+               "Name" : "Saint Lucia",
+               "Code" : "LC"
+            },
+            {
+               "Name" : "Saint Vincent and The Grenadines",
+               "Code" : "VC"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "East Caribbean dollars",
+         "Name" : "East Caribbean dollar",
+         "Symbol" : "XCD"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            null
+         ],
+         "Message" : null,
+         "Plural" : "IMF Special Drawing Rights",
+         "Name" : "IMF Special Drawing Right",
+         "Symbol" : "XDR"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            null,
+            {
+               "Name" : "Benin",
+               "Code" : "BJ"
+            },
+            {
+               "Name" : "Burkina Faso",
+               "Code" : "BF"
+            },
+            {
+               "Name" : "Cote D'Ivoire",
+               "Code" : "CI"
+            },
+            {
+               "Name" : "Guinea-Bissau",
+               "Code" : "GW"
+            },
+            {
+               "Name" : "Mali",
+               "Code" : "ML"
+            },
+            {
+               "Name" : "Niger",
+               "Code" : "NE"
+            },
+            {
+               "Name" : "Senegal",
+               "Code" : "SN"
+            },
+            {
+               "Name" : "Togo",
+               "Code" : "TG"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "West African CFA francs",
+         "Name" : "West African CFA franc",
+         "Symbol" : "XOF"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            null,
+            {
+               "Name" : "French Polynesia (French Pacific Islands)",
+               "Code" : "PF"
+            },
+            {
+               "Name" : "New Caledonia",
+               "Code" : "NC"
+            },
+            {
+               "Name" : "Wallis and Futuna Islands",
+               "Code" : "WF"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Comptoirs Francais du Pacifique Francs",
+         "Name" : "Comptoirs Francais du Pacifique Franc",
+         "Symbol" : "XPF"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Yemen",
+               "Code" : "YE"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Yemeni rial",
+         "Name" : "Yemeni rial",
+         "Symbol" : "YER"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "South Africa",
+               "Code" : "ZA"
+            },
+            {
+               "Name" : "Lesotho",
+               "Code" : "LS"
+            },
+            {
+               "Name" : "Swaziland",
+               "Code" : "SZ"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "South African rand",
+         "Name" : "South African rand",
+         "Symbol" : "ZAR"
+      },
+      {
+         "Digital" : false,
+         "Active" : true,
+         "Countries" : [
+            {
+               "Name" : "Zambia",
+               "Code" : "ZM"
+            }
+         ],
+         "Message" : null,
+         "Plural" : "Zambian kwacha",
+         "Name" : "Zambian kwacha",
+         "Symbol" : "ZMW"
+      }
+   ],
+   "Identity" : "Request",
+   "Message" : null
+}

@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="0e42128e-df0d-45d5-bc47-b1a3b492afd5" created="2.8.0" activeEnvironment="Default environment" name="SportbookQATask" resourceRoot="" updated="2.8.0 2019-07-23T17:43:45Z" encryptionMode="Not encrypted" abortOnError="false" runType="SEQUENTIAL" soapui-version="5.5.0" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:interface xsi:type="con:RestService" id="e96bdcda-7a4d-4444-a7ec-707406c2507f" wadlVersion="http://wadl.dev.java.net/2009/02" name="http://samples.openweathermap.org" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart=""/><con:endpoints><con:endpoint>http://samples.openweathermap.org</con:endpoint></con:endpoints><con:resource name="Weather" path="/data/2.5/weather" id="c7fe6f98-540b-4f5e-8676-a1df20d50151"><con:settings/><con:parameters/><con:method name="Weather" id="638333cf-7ce5-4cc4-afa0-c02244bf1a19" method="GET"><con:settings/><con:parameters><con:parameter required="true"><con:name>q</con:name><con:value>London,uk</con:value><con:style>QUERY</con:style><con:default>London,uk</con:default><con:path xsi:nil="true"/><con:description xsi:nil="true"/></con:parameter><con:parameter required="true"><con:name>appid</con:name><con:value>b6907d289e10d714a6e88b30761fae22</con:value><con:style>QUERY</con:style><con:default>b6907d289e10d714a6e88b30761fae22</con:default><con:path xsi:nil="true"/><con:description xsi:nil="true"/></con:parameter></con:parameters><con:representation type="RESPONSE"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:weat="https://samples.openweathermap.org/data/2.5/weather">weat:Response</con:element></con:representation><con:representation type="FAULT"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>400 401 404</con:status><con:params/><con:element xmlns:weat="https://samples.openweathermap.org/data/2.5/weather">weat:Fault</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:request name="Request 1" id="26f61258-5b43-4a2a-af2d-813d976c4a98" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://samples.openweathermap.org</con:endpoint><con:request/><con:originalUri>https://samples.openweathermap.org/data/2.5/weather</con:originalUri><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:parameters>
+  <con:entry key="q" value="London,uk"/>
+  <con:entry key="appid" value="${#Project#appid}"/>
+</con:parameters><con:parameterOrder><con:entry>q</con:entry><con:entry>appid</con:entry></con:parameterOrder></con:request></con:method></con:resource></con:interface><con:interface xsi:type="con:RestService" id="c11b7983-fcca-418d-bbb1-96043cf091f8" wadlVersion="http://wadl.dev.java.net/2009/02" name="REST Service 1" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache/><con:endpoints/><con:resource name="/data/2.5/weather" path="/data/2.5/weather" id="241020a2-5ce1-4b33-ac8c-30e244ed073f"><con:settings/><con:parameters/><con:method name="GET" id="345a42e0-cbaf-4e25-8e5d-2579e31fb794" method="GET"><con:settings/><con:parameters><con:parameter required="true"><con:name>id</con:name><con:value>23814</con:value><con:style>QUERY</con:style><con:default>23814</con:default></con:parameter><con:parameter required="true"><con:name>appid</con:name><con:value>b6907d289e10d714a6e88b30761fae22</con:value><con:style>QUERY</con:style><con:default>b6907d289e10d714a6e88b30761fae22</con:default></con:parameter></con:parameters><con:request name="GET Request" id="c7c69077-d8d1-49b8-a8cf-cd92fbfa9fa0" mediaType="application/json"><con:settings/><con:endpoint>https://samples.openweathermap.org</con:endpoint><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:parameters/></con:request></con:method></con:resource></con:interface><con:interface xsi:type="con:RestService" id="2db77007-00ea-4ea3-8483-b48d95e0a96c" wadlVersion="http://wadl.dev.java.net/2009/02" name="REST Service 2" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart=""/><con:endpoints/><con:resource name="/xGlobalCurrencies.json/ConvertRealTimeValue" path="/xGlobalCurrencies.json/ConvertRealTimeValue" id="4a852809-4e97-42b6-a1ea-fd8cb2e92540"><con:settings/><con:parameters/><con:method name="GET" id="65d1d78e-b71f-4ed4-9a62-7082369092e6" method="GET"><con:settings/><con:parameters><con:parameter required="true"><con:name>From</con:name><con:value>EUR</con:value><con:style>QUERY</con:style><con:default>EUR</con:default></con:parameter><con:parameter required="true"><con:name>To</con:name><con:value>USD</con:value><con:style>QUERY</con:style><con:default>USD</con:default></con:parameter><con:parameter required="true"><con:name>Amount</con:name><con:value>1500</con:value><con:style>QUERY</con:style><con:default>1500</con:default></con:parameter><con:parameter required="true"><con:name>_token</con:name><con:value>1D3F3E5DDCA642AB817395B8C3DD043F</con:value><con:style>QUERY</con:style><con:default>1D3F3E5DDCA642AB817395B8C3DD043F</con:default></con:parameter></con:parameters><con:representation type="RESPONSE"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:con1="https://globalcurrencies.xignite.com/xGlobalCurrencies.json/ConvertRealTimeValue">con1:Response</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:request name="GET Request" id="a7e4400d-63a8-4e5f-9e6a-2083764592d1" mediaType="application/json"><con:settings/><con:endpoint>https://globalcurrencies.xignite.com</con:endpoint><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:parameters/></con:request></con:method></con:resource></con:interface><con:interface xsi:type="con:RestService" id="4cda7957-9f3a-40c7-8471-1cfce77e4e9e" wadlVersion="http://wadl.dev.java.net/2009/02" name="REST Service 3" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache/><con:endpoints/><con:resource name="/data/2.5/history/city" path="/data/2.5/history/city" id="11fa3647-00f5-4e82-8532-7bac8ad73ee0"><con:settings/><con:parameters/><con:method name="GET" id="e418953e-0dd6-4ae1-a17e-36a9f5f88b91" method="GET"><con:settings/><con:parameters><con:parameter required="true"><con:name>q</con:name><con:value>{city</con:value><con:style>QUERY</con:style><con:default>{city</con:default></con:parameter></con:parameters><con:request name="GET Request" id="c9978ca5-edc6-44c2-a110-3f938a421a9e" mediaType="application/json"><con:settings/><con:endpoint>http://history.openweathermap.org</con:endpoint><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:parameters/></con:request></con:method></con:resource></con:interface><con:interface xsi:type="con:RestService" id="cd2e2847-79b4-4992-a4a9-923e79ce0e60" wadlVersion="http://wadl.dev.java.net/2009/02" name="REST Service 4" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart=""/><con:endpoints/><con:resource name="/data/2.5/forecast" path="/data/2.5/forecast" id="e7818ae0-c5b2-44ae-bbff-a7855802aacd"><con:settings/><con:parameters/><con:method name="GET" id="943a8557-6d32-47d0-a360-8ca53d919270" method="GET"><con:settings/><con:parameters><con:parameter required="true"><con:name>q</con:name><con:value>London,uk</con:value><con:style>QUERY</con:style><con:default>London,uk</con:default></con:parameter><con:parameter required="true"><con:name>appid</con:name><con:value>b2de3939c29856d9cec2ca2b5bccc9d0</con:value><con:style>QUERY</con:style><con:default>b2de3939c29856d9cec2ca2b5bccc9d0</con:default></con:parameter></con:parameters><con:representation type="RESPONSE"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:for="http://api.openweathermap.org/data/2.5/forecast">for:Response</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:request name="GET Request" id="69162d5e-0a15-4e34-80d6-7892fb090fc0" mediaType="application/json"><con:settings/><con:endpoint>http://api.openweathermap.org</con:endpoint><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:parameters/></con:request></con:method></con:resource></con:interface><con:testSuite id="21a4b85c-fa1a-4d92-8513-e1d7be4320f1" name="Testing"><con:description>The test suite generated for the REST service [http://samples.openweathermap.org]</con:description><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:runType>SEQUENTIAL</con:runType><con:testCase id="23f5c7c0-2531-4108-9551-3e8ad555c97e" discardOkResults="false" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="GetCurrentWeather" searchProperties="true" timeout="0"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="groovy" name="Groovy Script" id="88c10e43-55ea-4313-ac51-c15e5cc3b3a8"><con:settings/><con:config><script>import groovy.json.JsonSlurper
+import com.eviware.soapui.model.testsuite.TestRunner
+import java.text.SimpleDateFormat
+import groovy.json.JsonOutput
+
+def getCurrentWeather(){
+	def jsonSlurper = new JsonSlurper()
+	filename = context.expand('${projectDir}') + "\\history.city.list.json"
+	data = jsonSlurper.parse(new File(filename))
+	dataSize = data.size();
+	//dataSize = 20;
+	array = new Map[dataSize];
+	sunnyCities = [];
+	
+	//def cityName =  testRunner.testCase.testSuite.testCases["GeneratePeople"].testSteps["DataGenNationCity"].getPropertyValue("city");
+	//def cityName = data.city[new Random().nextInt(dataSize)].name;
+	// run loop through json file, get city and country then run API to get current weather
+	
+	count = 0
+	for(item in data)
+	{
+		cityName = item.city.name;
+		cityID = item.city.id.$numberLong;
+		countryCode = item.city.country
+		location = cityName + "," + countryCode;
+		setProperty("Library", "RestAPI","currentWeatherRequest","q", location)
+		//Run RestAPI to get current weather
+		runTestStep("Library", "RestAPI","currentWeatherRequest")
+		// get response
+		jsonData = getResponse("Library", "RestAPI","currentWeatherRequest")
+		
+		//Assert response
+		 //responseNameOfGetCurrentWeatherAssertion(cityName);
+		 mainWeatherToday = mainWeatherToday(jsonData,"Library", "RestAPI","currentWeatherRequest")
+		 if(mainWeatherToday == "Clear")
+		{
+			sunnyCities.add(location);
+		}		
+		 log.info sunnyCities
+		// log.info "weather today: " + mainWeatherToday;
+		 g = [:]
+		 g["name"] = cityName;
+		 g["id"] = cityID;
+		 g["countryCode"] = countryCode
+		 g["weather"] = mainWeatherToday
+		 
+		 array[count] = g
+		
+		count ++
+		 if(count>=dataSize){
+		 	break;
+		 }
+	 }
+	currentWeatherAllCities = JsonOutput.toJson(array);
+	 log.info currentWeatherAllCities;
+	 setProperty("Testing", "GetCurrentWeather","CityCurrentWeather","weatherList",currentWeatherAllCities)
+	 sunnyCities = sunnyCities.toString();
+	 setProperty("Testing", "GetCurrentWeather","CityCurrentWeather","sunnyCities",sunnyCities)
+}
+
+def setProperty(String testSuite, String testCase, String testStep,String propertyName, String value)
+{
+	testRunner.testCase.testSuite.project.testSuites[testSuite].testCases[testCase].testSteps[testStep].setPropertyValue(propertyName, value);
+}
+def getProperty(String testSuite, String testCase, String testStep,String propertyName)
+{
+	propertyValue = testRunner.testCase.testSuite.project.testSuites[testSuite].testCases[testCase].testSteps[testStep].getPropertyValue(propertyName);
+	return propertyValue;
+}
+
+def runTestStep(String testSuite,String testCase, String testStep) {
+	getRestAPI = testRunner.testCase.testSuite.project.testSuites[testSuite].testCases[testCase].testSteps[testStep];
+	getRestAPI.run(testRunner, context)
+}
+def getResponse(String testSuite,String testCase, String testStep)
+{
+	response = testRunner.testCase.testSuite.project.testSuites[testSuite].testCases[testCase].testSteps[testStep].getPropertyValue("Response");
+	json = new JsonSlurper().parseText(response)
+	//log.info json.getClass();
+	return json;
+}
+
+def mainWeatherToday(Map json,String testSuite,String testCase, String testStep)
+{
+	json =  getResponse( testSuite, testCase, testStep);
+	//log.info json;	
+	for (weather in json.weather)
+	{
+		log.info weather.main;
+		return weather.main;
+	}
+}
+
+getCurrentWeather()
+
+
+//generatePeopleData()
+
+//Execute the Backward Project
+
+
+</script></con:config></con:testStep><con:testStep type="properties" name="CityCurrentWeather" id="469a2f34-a6b7-4464-b524-642acd863153"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>weatherList</con:name><con:value>[{"name":"Azadshahr","id":"14256","countryCode":"IR","weather":"Clouds"},{"name":"Protaras","id":"18918","countryCode":"CY","weather":"Clouds"},{"name":"Kahriz","id":"23814","countryCode":"IR","weather":"Clear"},{"name":"Nurabad","id":"24851","countryCode":"IR","weather":"Clear"},{"name":"Istgah-e Garmsar","id":"32723","countryCode":"IR","weather":"Clear"},{"name":"Qarchak","id":"32767","countryCode":"IR","weather":"Clouds"},{"name":"Khorram Darreh","id":"41210","countryCode":"IR","weather":"Clear"},{"name":"Wanlaweyn","id":"50672","countryCode":"SO","weather":"Clouds"},{"name":"Qoryooley","id":"52867","countryCode":"SO","weather":"Clouds"},{"name":"Qandala","id":"53157","countryCode":"SO","weather":"Clear"},{"name":"Mogadishu","id":"53654","countryCode":"SO","weather":"Clouds"},{"name":"Luuq","id":"54715","countryCode":"SO","weather":"Rain"},{"name":"Kismaayo","id":"55671","countryCode":"SO","weather":"Clouds"},{"name":"Jilib","id":"56166","countryCode":"SO","weather":"Clouds"},{"name":"Jawhar","id":"56335","countryCode":"SO","weather":"Clouds"},{"name":"Jamaame","id":"56399","countryCode":"SO","weather":"Clouds"},{"name":"Hargeysa","id":"57289","countryCode":"SO","weather":"Clear"},{"name":"Gaalkacyo","id":"59611","countryCode":"SO","weather":"Clouds"},{"name":"Eyl","id":"60019","countryCode":"SO","weather":"Clouds"},{"name":"Ceerigaabo","id":"62691","countryCode":"SO","weather":"Clouds"}]</con:value></con:property><con:property><con:name>sunnyCities</con:name><con:value>[Kahriz,IR, Nurabad,IR, Istgah-e Garmsar,IR, Khorram Darreh,IR, Qandala,SO, Hargeysa,SO]</con:value></con:property></con:properties></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:testCase id="7cc70498-4de1-4bf9-8b1e-8c8d27a6f96b" discardOkResults="false" failOnError="false" failTestCaseOnErrors="true" keepSession="false" name="GeneratePeople" searchProperties="true" timeout="0" maxResults="0" wsrmEnabled="false" wsrmVersion="1.0" wsrmAckTo="" amfAuthorisation="false" amfEndpoint="" amfLogin="" amfPassword="" zephyrTestName="" zephyrTestId=""><con:description>The test case generated for the REST resource [Weather] located at [/data/2.5/weather]</con:description><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="datasource" name="People" id="153b974c-d976-48ec-9cd1-853025a7d191"><con:settings/><con:config xsi:type="con:DataSourceStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:dataSource type="Data Generator"><con:configuration><generatedDataCount>2000</generatedDataCount><generatorsTotalNumber>11</generatorsTotalNumber><lastSelectedProperty>10</lastSelectedProperty><GeneratorType0>NAME</GeneratorType0><PropertyName0>Name</PropertyName0><repetitionCountName>0</repetitionCountName><repeatValuesName>false</repeatValuesName><NameTypeName0>FirstName</NameTypeName0><NameGenderName0>Any</NameGenderName0><GeneratorType1>ADDRESS</GeneratorType1><PropertyName1>Address</PropertyName1><repetitionCountAddress>0</repetitionCountAddress><repeatValuesAddress>false</repeatValuesAddress><AddressDataGeneratorRestrictLength>true</AddressDataGeneratorRestrictLength><AddressDataGeneratorMaxLength>20</AddressDataGeneratorMaxLength><GeneratorType2>NAME</GeneratorType2><PropertyName2>Surname</PropertyName2><repetitionCountSurname>0</repetitionCountSurname><repeatValuesSurname>false</repeatValuesSurname><NameTypeName2>LastName</NameTypeName2><NameGenderName2>Any</NameGenderName2><GeneratorType3>PHONE</GeneratorType3><PropertyName3>Telephone</PropertyName3><repetitionCountTelephone>0</repetitionCountTelephone><repeatValuesTelephone>false</repeatValuesTelephone><PhoneTemplateTypeTelephone>XXX-XXX-XXXX</PhoneTemplateTypeTelephone><GeneratorType4>EMAIL</GeneratorType4><PropertyName4>Email</PropertyName4><repetitionCountEmail>0</repetitionCountEmail><repeatValuesEmail>false</repeatValuesEmail><GeneratorType5>TIME</GeneratorType5><PropertyName5>DateOfBirth</PropertyName5><repetitionCountDateOfBirth>0</repetitionCountDateOfBirth><repeatValuesDateOfBirth>false</repeatValuesDateOfBirth><DateTimeDataGeneratorCustomFormatDateOfBirth/><DateTimeDataGeneratorFormatDateOfBirth>M/D/YYYY</DateTimeDataGeneratorFormatDateOfBirth><DateTimeDataGeneratorIsSequentDateOfBirth>false</DateTimeDataGeneratorIsSequentDateOfBirth><DateTimeDataGeneratorStepDaysDateOfBirth>1</DateTimeDataGeneratorStepDaysDateOfBirth><DateTimeDataGeneratorStepHoursDateOfBirth>1</DateTimeDataGeneratorStepHoursDateOfBirth><DateTimeDataGeneratorStepMinsDateOfBirth>1</DateTimeDataGeneratorStepMinsDateOfBirth><DateTimeDataGeneratorStepSecondsDateOfBirth>1</DateTimeDataGeneratorStepSecondsDateOfBirth><DateTimeDataGeneratorMinDateDateOfBirth>442744953885</DateTimeDataGeneratorMinDateDateOfBirth><DateTimeDataGeneratorMaxDateDateOfBirth>92178895353885</DateTimeDataGeneratorMaxDateDateOfBirth><GeneratorType6>SET</GeneratorType6><PropertyName6>MaritalStatus</PropertyName6><repetitionCountMaritalStatus>0</repetitionCountMaritalStatus><repeatValuesMaritalStatus>false</repeatValuesMaritalStatus><ValueFromSetIsSequenceValueMaritalStatus>false</ValueFromSetIsSequenceValueMaritalStatus><ValueFromSetStringsMaritalStatus>Single</ValueFromSetStringsMaritalStatus><ValueFromSetStringsMaritalStatus>Married</ValueFromSetStringsMaritalStatus><ValueFromSetStringsMaritalStatus>Divorced</ValueFromSetStringsMaritalStatus><GeneratorType7>SET</GeneratorType7><PropertyName7>Sex</PropertyName7><repetitionCountSex>0</repetitionCountSex><repeatValuesSex>false</repeatValuesSex><ValueFromSetIsSequenceValueSex>false</ValueFromSetIsSequenceValueSex><ValueFromSetStringsSex>Female</ValueFromSetStringsSex><ValueFromSetStringsSex>Male</ValueFromSetStringsSex><ValueFromSetStringsSex>NA</ValueFromSetStringsSex><GeneratorType8>COUNTRY</GeneratorType8><PropertyName8>Nationality</PropertyName8><repetitionCountNationality>0</repetitionCountNationality><repeatValuesNationality>false</repeatValuesNationality><GeneratorType9>REAL</GeneratorType9><PropertyName9>GrossAnualIncome</PropertyName9><repetitionCountGrossAnualIncome>0</repetitionCountGrossAnualIncome><repeatValuesGrossAnualIncome>false</repeatValuesGrossAnualIncome><RealDataGeneratorMinValueGrossAnualIncome>1000.0</RealDataGeneratorMinValueGrossAnualIncome><RealDataGeneratorMaxValueGrossAnualIncome>100000.0</RealDataGeneratorMaxValueGrossAnualIncome><RealDataGeneratorStepValueGrossAnualIncome>1.0</RealDataGeneratorStepValueGrossAnualIncome><RealDataGeneratorGenerationTypeGrossAnualIncome>false</RealDataGeneratorGenerationTypeGrossAnualIncome><RealDataGeneratorDecimalDigitsAfterPointGrossAnualIncome>0</RealDataGeneratorDecimalDigitsAfterPointGrossAnualIncome><GeneratorType10>COUNTRY</GeneratorType10><PropertyName10>CountryOfBirth</PropertyName10><repetitionCountCountryOfBirth>0</repetitionCountCountryOfBirth><repeatValuesCountryOfBirth>false</repeatValuesCountryOfBirth><escapeSpaceSequence/></con:configuration></con:dataSource><con:shared>true</con:shared><con:restartShared>true</con:restartShared><con:property>Name</con:property><con:property>Surname</con:property><con:property>Address</con:property><con:property>Telephone</con:property><con:property>Email</con:property><con:property>DateOfBirth</con:property><con:property>Sex</con:property><con:property>MaritalStatus</con:property><con:property>Nationality</con:property><con:property>CountryOfBirth</con:property><con:property>GrossAnualIncome</con:property><con:completeLastOperation>true</con:completeLastOperation><con:restartOnRun>true</con:restartOnRun></con:config></con:testStep><con:testStep type="groovy" name="Groovy Script" id="b8d4b1e6-8996-4d8f-b2bc-54c1cd0e71b5"><con:settings/><con:config><script>import groovy.json.JsonSlurper
+import com.eviware.soapui.model.testsuite.TestRunner
+import java.text.SimpleDateFormat
+import groovy.json.JsonOutput
+
+def main()
+{
+	g = getCityAndCountry("Testing", "GetCurrentWeather", "CityCurrentWeather")
+	//log.info g;
+	cityName = g.cityName
+	countryCode = g.countryCode
+	location = g.location
+	currentWeather = g.weather;
+	//og.info currentWeather;
+	currencyCode = getCurrencyByCountryCode(countryCode)
+	incomeEUR = convertGrossAnnualIncomeToEUR("Library", "RestAPI","convertToEUR", currencyCode)	
+	annualIncomeEUR = incomeEUR.annualIncomeEUR.toString();
+	weeklyIncomeEUR =  incomeEUR.weeklyIncomeEUR.toString();
+	//log.info weeklyIncomeEUR;
+	// generate people
+	peopleName =  context.expand('${People#Name}')
+	setProperty("Testing", "GeneratePeople","DataSink","Name",peopleName);
+		
+	surname =  context.expand('${People#SurName}')
+	setProperty("Testing", "GeneratePeople","DataSink","Surname",surname);
+	
+	address =  context.expand('${People#Address}')
+	setProperty("Testing", "GeneratePeople","DataSink","Address",address);
+	
+	setProperty("Testing", "GeneratePeople","DataSink","City",cityName);
+	
+	telephone =  context.expand('${People#Telephone}')
+	setProperty("Testing", "GeneratePeople","DataSink","Telephone",telephone);
+	
+	email =  context.expand('${People#Email}')
+	setProperty("Testing", "GeneratePeople","DataSink","Email",email);
+	
+	DOB =  context.expand('${People#DateOfBirth}')
+	setProperty("Testing", "GeneratePeople","DataSink","DateOfBirth",DOB);
+	
+	sex =  context.expand('${People#Sex}')
+	setProperty("Testing", "GeneratePeople","DataSink","Sex",sex);
+	
+	maritalStatus =  context.expand('${People#MaritalStatus}')
+	setProperty("Testing", "GeneratePeople","DataSink","MaritalStatus",maritalStatus);
+	
+	setProperty("Testing", "GeneratePeople","DataSink","Nationality",countryCode);
+		
+	countryOfBirth =  context.expand('${People#CountryOfBirth}')
+	setProperty("Testing", "GeneratePeople","DataSink","CountryOfBirth",countryOfBirth);
+
+	grossAnnualIncome =  context.expand('${People#GrossAnualIncome}').toString();
+	setProperty("Testing", "GeneratePeople","DataSink","GrossAnualIncome",grossAnnualIncome);
+
+	setProperty("Testing", "GeneratePeople","DataSink","Currency",currencyCode);
+
+	setProperty("Testing", "GeneratePeople","DataSink","AnnualIncomeEUR",annualIncomeEUR);
+
+	setProperty("Testing", "GeneratePeople","DataSink","WeeklyIncomeEUR",weeklyIncomeEUR);
+
+	// get forcast weather	
+	focastWeather = getFocastWeather("Library", "RestAPI","tomorrowWeatherFocast",location )
+	log.info focastWeather;
+
+	if(currentWeather == "Rain" &amp;&amp; focastWeather == "Rain")
+	{
+		weatherCondition = "Rain";
+		sunnyCities = getProperty("Testing", "GetCurrentWeather", "CityCurrentWeather", "sunnyCities");		
+		//og.info sunnyCities;
+		setProperty("Testing", "GeneratePeople","DataSink","RecommendDestinations",sunnyCities);
+	}
+	else
+	{
+		weatherCondition = "Good";
+	}
+	setProperty("Testing", "GeneratePeople","DataSink","WeatherCondition",weatherCondition);
+
+	setProperty("Testing", "GeneratePeople","DataSink","TodayWeather",currentWeather);
+	setProperty("Testing", "GeneratePeople","DataSink","TomorrowWeather",focastWeather);
+	//get current weather
+	//Run data sink
+	//runTestStep("Testing", "GeneratePeople","DataSink")	
+}
+
+def convertGrossAnnualIncomeToEUR(String testSuite, String testCase, String testStep, String currencyCode)
+{
+	grossAnualIncome = context.expand('${People#GrossAnualIncome}').replaceAll(",", "")
+	//log.info grossAnualIncome
+    	grossAnualIncome = Float.parseFloat(grossAnualIncome)
+    	
+    	currencyCode = getCurrencyByCountryCode(countryCode)
+	setProperty(testSuite, testCase, testStep,"From",currencyCode);
+	setProperty(testSuite, testCase, testStep,"Amount", grossAnualIncome.toString());
+
+	runTestStep(testSuite, testCase, testStep)
+	// get response
+	jsonData = getResponse(testSuite, testCase, testStep)
+		
+		
+	annualIncomeEUR = json.Result;
+	weeklyIncomeEUR = (annualIncomeEUR/52)
+	//log.info annualIncomeEUR;
+	//log.info weeklyIncomeEUR
+
+	g = [:]
+	g['annualIncomeEUR'] = annualIncomeEUR
+	g['weeklyIncomeEUR'] = weeklyIncomeEUR
+	return g
+}
+def getCurrencyByCountryCode(String countryCode){
+	def jsonSlurper = new JsonSlurper()
+	filename =  context.expand('${projectDir}') + "\\ActiveCurrency.json"
+
+	data = jsonSlurper.parse(new File(filename))
+
+	for (currency in data.CurrencyList){
+		if(currency.Countries.size()>0){
+			for(country in currency.Countries){
+				if(country!=null &amp;&amp; country.Code == countryCode){
+					return currency.Symbol
+				}
+			}
+		}
+	}
+	return null
+}
+
+def getCityAndCountry(String testSuite, String testCase, String testStep){
+	//def cityName =  testRunner.testCase.testSuite.testCases["GeneratePeople"].testSteps["DataGenNationCity"].getPropertyValue("city");
+	currentWeatherAllCities = getProperty(testSuite, testCase, testStep,"weatherList");
+	//("Testing", "GetCurrentWeather", "CityCurrentWeather", "weatherList");
+	currentWeatherAllCities  = new JsonSlurper().parseText(currentWeatherAllCities)
+	//log.info currentWeatherAllCities;
+	dataSize = currentWeatherAllCities.size();
+	//log.info dataSize;
+
+	randomIndex =  new Random().nextInt(dataSize);
+	
+	cityName = currentWeatherAllCities[randomIndex].name
+	countryCode = currentWeatherAllCities[randomIndex].countryCode;
+	location = cityName + "," + countryCode
+	//return location;
+	// get current weather	
+	currentWeather = currentWeatherAllCities[randomIndex].weather;
+
+	g = [:]
+	g['cityName'] = cityName
+	g['countryCode'] = countryCode
+	g['location'] = location
+	g['weather'] = currentWeather
+	return g
+}
+def getFocastWeather(String testSuite, String testCase, String testStep, String location)
+{
+	//g = getCityAndCountry(testSuite,testCase, testStep )
+	setProperty(testSuite,testCase, testStep,"q", location);
+		//"Library", "RestAPI","tomorrowWeatherFocast","q", location)
+	//Run RestAPI to get current weather
+	runTestStep(testSuite,testCase, testStep);
+	// get response
+	jsonData = getResponse(testSuite,testCase, testStep)
+	//log.info jsonData;
+	//Assert response
+	 //responseNameOfGetCurrentWeatherAssertion(cityName);
+	focastWeather = mainWeatherTomorrow(jsonData,testSuite,testCase, testStep)
+	return focastWeather;
+	// log.info focastWeather
+}
+def setProperty(String testSuite, String testCase, String testStep,String propertyName, String value)
+{
+	testRunner.testCase.testSuite.project.testSuites[testSuite].testCases[testCase].testSteps[testStep].setPropertyValue(propertyName, value);
+}
+
+def getProperty(String testSuite, String testCase, String testStep,String propertyName)
+{
+	propertyValue = testRunner.testCase.testSuite.project.testSuites[testSuite].testCases[testCase].testSteps[testStep].getPropertyValue(propertyName);
+	return propertyValue;
+}
+
+def runTestStep(String testSuite,String testCase, String testStep) {
+	getRestAPI = testRunner.testCase.testSuite.project.testSuites[testSuite].testCases[testCase].testSteps[testStep];
+	getRestAPI.run(testRunner, context)
+}
+def getResponse(String testSuite,String testCase, String testStep)
+{
+	response = testRunner.testCase.testSuite.project.testSuites[testSuite].testCases[testCase].testSteps[testStep].getPropertyValue("Response");
+	json = new JsonSlurper().parseText(response)
+	//log.info json.getClass();
+	return json;
+}
+
+//focast weather tomorrow
+def getCurrentDate(){
+    date = new Date()
+    sdf = new SimpleDateFormat("yyyy-MM-dd")
+    today = sdf.format(date)
+    return today =Date.parse("yyyy-MM-dd",today)
+}
+
+def mainWeatherTomorrow(Map json,String testSuite,String testCase, String testStep)
+{
+	
+	json =  getResponse( testSuite, testCase, testStep);
+	today = getCurrentDate();	
+	//log.info today.getClass()
+	tomorrowWeatherList = [];
+	isSunny = false;
+	for (list in json.list)
+	{
+		focastDate = list.dt_txt;
+		focastDate = focastDate.toString();
+		focastDate = focastDate[0..9];
+		focastDate= Date.parse("yyyy-MM-dd",focastDate)
+		//forcast 5 days every 3 hours
+		// if contain Rain == rainy day
+		// if not contain Rain and contain Sunny == sunny day
+		//other!
+		isSunny= false;
+		if(focastDate == (today+1))
+		{
+			if(list.weather[0].main == "Rain")
+			{ 				
+				return "Rain"
+			}	
+			else if(list.weather[0].main == "Clear")
+			{
+				isSunny = true;
+			}		
+		}
+		if(isSunny)
+		{
+			return "Sunny";		
+		}
+		else
+		{
+			return "Clouds";
+		}
+	}
+}
+//getCityAndCountry();
+main()</script></con:config></con:testStep><con:testStep type="datasink" name="DataSink" id="f17be283-d522-4dc2-a173-8f8a733f6c48"><con:settings/><con:config xsi:type="con:DataSinkStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:dataSink type="File"><con:configuration><fileName>C:/Thao/SportBook/Results.txt</fileName><separator>,</separator><escape>"</escape><quote>true</quote><trim>true</trim><append>true</append><encoding>Cp1252</encoding></con:configuration></con:dataSink><con:properties><con:property><con:name>Name</con:name><con:value>Lars</con:value></con:property><con:property><con:name>Surname</con:name><con:value>Hutchinson</con:value></con:property><con:property><con:name>Address</con:name><con:value>749 EastChad Ln.</con:value></con:property><con:property><con:name>City</con:name><con:value>Mogadishu</con:value></con:property><con:property><con:name>Telephone</con:name><con:value>609-922-4354</con:value></con:property><con:property><con:name>Email</con:name><con:value>orson.michael@mail.net</con:value></con:property><con:property><con:name>DateOfBirth</con:name><con:value>6/13/2496</con:value></con:property><con:property><con:name>Sex</con:name><con:value>Female</con:value></con:property><con:property><con:name>MaritalStatus</con:name><con:value>Married</con:value></con:property><con:property><con:name>Nationality</con:name><con:value>SO</con:value></con:property><con:property><con:name>CountryOfBirth</con:name><con:value>Gibraltar</con:value></con:property><con:property><con:name>GrossAnualIncome</con:name><con:value>23,188</con:value></con:property><con:property><con:name>Currency</con:name><con:value>SOS</con:value></con:property><con:property><con:name>AnnualIncomeEUR</con:name><con:value>0</con:value></con:property><con:property><con:name>WeeklyIncomeEUR</con:name><con:value>0</con:value></con:property><con:property><con:name>WeatherCondition</con:name><con:value>Good</con:value></con:property><con:property><con:name>RecommendDestinations</con:name><con:value/></con:property><con:property><con:name>TodayWeather</con:name><con:value>Clouds</con:value></con:property><con:property><con:name>TomorrowWeather</con:name><con:value>Clouds</con:value></con:property></con:properties></con:config></con:testStep><con:testStep type="datasourceloop" name="DataSource Loop" id="5e754993-d96e-4b19-b359-1b4c41a44b0e"><con:settings/><con:config><dataSourceStep>People</dataSourceStep><targetStep>Groovy Script</targetStep><discardResults>false</discardResults></con:config></con:testStep><con:properties><con:property><con:name>Name</con:name><con:value/></con:property></con:properties><con:reportParameters/><con:breakPoints><con:testStepId>b8d4b1e6-8996-4d8f-b2bc-54c1cd0e71b5</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>153b974c-d976-48ec-9cd1-853025a7d191</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>5e754993-d96e-4b19-b359-1b4c41a44b0e</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>f17be283-d522-4dc2-a173-8f8a733f6c48</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints></con:testCase><con:properties><con:property><con:name>appAPI</con:name><con:value>b2de3939c29856d9cec2ca2b5bccc9d0</con:value></con:property></con:properties><con:reportParameters/></con:testSuite><con:testSuite id="97c538e7-e085-4024-b4ac-9f88567997f3" name="Library"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:runType>SEQUENTIAL</con:runType><con:testCase id="01511b14-12da-45c1-8734-589e2154cd6f" discardOkResults="false" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="RestAPI" searchProperties="true" timeout="0"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="restrequest" name="currentWeatherRequest" id="82e3a16b-8e4d-42ac-a72b-01e9901ab653"><con:settings/><con:config service="http://samples.openweathermap.org" methodName="Weather" resourcePath="/data/2.5/weather" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="currentWeatherRequest" id="68ae8110-387c-4804-94fd-d2e99f0e0891" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://api.openweathermap.org</con:endpoint><con:request/><con:originalUri>https://samples.openweathermap.org/data/2.5/weather</con:originalUri><con:assertion type="JsonPath Existence Match" id="8dc25704-19d0-47fe-ba89-a03b6f4b42b2" name="JSONPath Existence Match"><con:configuration><path>$['main']</path><content>true</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:assertion type="JsonPath Existence Match" id="6ae8a8bd-b117-40d2-b162-ee9af559d213" name="JSONPath Existence Match 2"><con:configuration><path>$['main']['pressure']</path><content>true</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:assertion type="JsonPath Existence Match" id="8837d825-6cfd-4306-b121-4eaab24cec2a" name="JSONPath Existence Match 3"><con:configuration><path>$['main']['humidity']</path><content>true</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:assertion type="JsonPath Existence Match" id="7a3b1715-ac3d-4225-84ed-a45666ba6a34" name="JSONPath Existence Match 4"><con:configuration><path>$['main']['temp_min']</path><content>true</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:assertion type="JsonPath Existence Match" id="91b0cd72-a158-4fa7-a8fb-19308cb40b78" name="JSONPath Existence Match 5"><con:configuration><path>$['main']['temp_max']</path><content>true</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials><con:selectedAuthProfile>Inherit From Parent</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:parameters>
+  <con:entry key="q" value="Nazarabad,IR"/>
+  <con:entry key="appid" value="b2de3939c29856d9cec2ca2b5bccc9d0"/>
+</con:parameters></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="convertToEUR" id="645f9325-b59c-40e6-b777-269f74895f5f"><con:settings/><con:config service="REST Service 2" resourcePath="/xGlobalCurrencies.json/ConvertRealTimeValue" methodName="GET" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="convertToEUR" id="a7e4400d-63a8-4e5f-9e6a-2083764592d1" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://globalcurrencies.xignite.com</con:endpoint><con:request/><con:originalUri>https://globalcurrencies.xignite.com/xGlobalCurrencies.json/ConvertRealTimeValue</con:originalUri><con:credentials><con:selectedAuthProfile>Inherit From Parent</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:parameters>
+  <con:entry key="Amount" value="23188.0"/>
+  <con:entry key="To" value="EUR"/>
+  <con:entry key="From" value="SOS"/>
+</con:parameters></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="yesterdayWeather" id="22509613-a373-4cdd-96c3-f7dbf21127c5"><con:settings/><con:config service="REST Service 3" resourcePath="/data/2.5/history/city" methodName="GET" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="yesterdayWeather" id="c9978ca5-edc6-44c2-a110-3f938a421a9e" mediaType="application/json"><con:settings/><con:endpoint>http://history.openweathermap.org</con:endpoint><con:request/><con:credentials><con:selectedAuthProfile>Inherit From Parent</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="tomorrowWeatherFocast" id="fd5d5b67-7ebc-4197-9826-d0290cd83fe6"><con:settings/><con:config service="REST Service 4" resourcePath="/data/2.5/forecast" methodName="GET" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="tomorrowWeatherFocast" id="69162d5e-0a15-4e34-80d6-7892fb090fc0" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://api.openweathermap.org</con:endpoint><con:request/><con:originalUri>http://api.openweathermap.org/data/2.5/forecast</con:originalUri><con:credentials><con:selectedAuthProfile>Inherit From Parent</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:parameters><entry key="q" value="Mogadishu,SO" xmlns="http://eviware.com/soapui/config"/></con:parameters></con:restRequest></con:config></con:testStep><con:properties><con:property><con:name>location</con:name><con:value>Makassar,ID</con:value></con:property><con:property><con:name>currency</con:name><con:value/></con:property></con:properties><con:reportParameters/></con:testCase><con:properties/><con:reportParameters/></con:testSuite><con:savedRecentRuns>1</con:savedRecentRuns><con:requirements/><con:properties><con:property><con:name>appid</con:name><con:value>b2de3939c29856d9cec2ca2b5bccc9d0</con:value></con:property></con:properties><con:wssContainer/><con:databaseConnectionContainer/><con:jmsConnectionContainer/><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/><con:reporting><con:reportTemplates/><con:xmlTemplates/><con:xmlTemplates/><con:parameters/><con:parameters/></con:reporting><con:reporting/><con:eventHandlers type="RequestFilter.filterRequest" name="RequestFilter.filterRequest"><con:script>// Sample event script to add custom HTTP header to all outgoing REST, SOAP and HTTP(S) calls
+// This code is often used for adding custom authentication to SoapUI Pro tests
+
+// If hardcoding the token, uncomment and change line 5
+// def token = '4567'
+
+// If your token is parameterized in Project level custom property, uncomment line 8
+// def token = request.parent.testCase.testSuite.project.getProperty('auth_token').getValue()
+
+// To modify all outgoing calls, remove comments from lines 11 to 16
+// def headers = request.requestHeaders
+// if (headers.containsKey('auth_token2') == false) {
+//   headers.put('auth_token2', token)
+//   request.requestHeaders = headers
+// }</con:script></con:eventHandlers><con:eventHandlers type="TestRunListener.afterStep" name="TestRunListener.afterStep"><con:script>// Save all test step results into files
+// Change the directory path in line 5 to a location where you want to store details
+// then uncomment lines 5 to 10
+
+// filePath = 'C:\\tempOutputDirectory\\'
+// fos = new FileOutputStream(filePath + testStepResult.testStep.label + '.txt', true)
+// pw = new PrintWriter(fos)
+// testStepResult.writeTo(pw)
+// pw.close()
+// fos.close()</con:script></con:eventHandlers><con:authRepository/><con:tags/></con:soapui-project>
